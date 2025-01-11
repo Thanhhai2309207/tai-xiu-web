@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Tài Xỉu Mobile</title>
+    <title>Web Tài Xỉu Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Tài Xỉu Online</h1>
         <p>Số dư của bạn: <span id="balance">1000</span> xu</p>
+        
+        <!-- Thời gian đếm ngược -->
+        <div id="timer">45</div>
+
+        <!-- Chọn Tài hoặc Xỉu -->
+        <div class="bet-choice">
+            <button id="betTai" class="bet-button">Tài</button>
+            <button id="betXiu" class="bet-button">Xỉu</button>
+        </div>
+
         <div class="bet-section">
             <input type="number" id="betAmount" placeholder="Nhập số tiền cược" min="1">
             <button id="allInButton">All in</button>
         </div>
+
         <div class="dice-container">
             <div id="dice1" class="dice">🎲</div>
             <div id="dice2" class="dice">🎲</div>
             <div id="dice3" class="dice">🎲</div>
         </div>
+
         <div class="buttons">
             <button id="rollButton">Lắc Xí Ngầu</button>
             <button id="helpButton">Hướng dẫn</button>
         </div>
+
         <p id="result">Kết quả sẽ hiện ở đây.</p>
         <div id="helpText" class="hidden">
             <p><strong>Luật chơi:</strong></p>
