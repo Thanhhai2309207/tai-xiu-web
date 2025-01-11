@@ -25,6 +25,32 @@ p {
     margin: 10px 0;
 }
 
+#timer {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.bet-choice {
+    margin-bottom: 20px;
+}
+
+.bet-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bet-button:hover {
+    background-color: #45a049;
+}
+
 .bet-section {
     display: flex;
     justify-content: space-between;
