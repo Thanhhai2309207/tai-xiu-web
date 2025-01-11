@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tài Xỉu Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tài Xỉu Online</h1>
+        <p>Số dư của bạn: <span id="balance">1000</span> xu</p>
+        <div class="bet-section">
+            <input type="number" id="betAmount" placeholder="Nhập số tiền cược" min="1">
+            <button id="allInButton">All in</button>
+        </div>
+        <div class="dice-container">
+            <div id="dice1" class="dice">🎲</div>
+            <div id="dice2" class="dice">🎲</div>
+            <div id="dice3" class="dice">🎲</div>
+        </div>
+        <div class="buttons">
+            <button id="rollButton">Lắc Xí Ngầu</button>
+            <button id="helpButton">Hướng dẫn</button>
+        </div>
+        <p id="result">Kết quả sẽ hiện ở đây.</p>
+        <div id="helpText" class="hidden">
+            <p><strong>Luật chơi:</strong></p>
+            <ul>
+                <li>Nếu tổng từ 3 đến 10 là Xỉu.</li>
+                <li>Nếu tổng từ 11 đến 18 là Tài.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
